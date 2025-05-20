@@ -1,14 +1,15 @@
 
 
-import { Router, Routes } from 'react-router-dom'
+import { Route, Router, Routes } from 'react-router-dom'
 import './App.css'
+import LoginPage from './Screeens/LoginPage'
 
 function App() {
 
   return (
     <div>
       <Routes>
-        <Router 
+        <Route path='/' element={<LoginPage/>}/>
       </Routes>
       
       
